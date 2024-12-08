@@ -1,0 +1,5 @@
+C:\Users\lawko\source\repos\EventPlannerApp\EventPlannerApp\obj\Debug\net8.0\EventPlannerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lawko\source\repos\EventPlannerApp\EventPlannerApp\obj\Debug\net8.0\EventPlannerApp.AssemblyInfoInputs.cache
+C:\Users\lawko\source\repos\EventPlannerApp\EventPlannerApp\obj\Debug\net8.0\EventPlannerApp.AssemblyInfo.cs
+C:\Users\lawko\source\repos\EventPlannerApp\EventPlannerApp\obj\Debug\net8.0\EventPlannerApp.csproj.CoreCompileInputs.cache
+C:\Users\lawko\source\repos\EventPlannerApp\EventPlannerApp\obj\Debug\net8.0\EventPlannerApp.csproj.AssemblyReference.cache
