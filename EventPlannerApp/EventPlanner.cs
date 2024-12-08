@@ -71,4 +71,16 @@ namespace EventPlannerApp
         }
         return null;
     }
+
+    public Event? GetEventByName(string name)
+    {
+        foreach (var ev in events)
+        {
+            if (ev.Name == name)
+            {
+                return ev;
+            }
+        }
+        return null;
+    }
 }
