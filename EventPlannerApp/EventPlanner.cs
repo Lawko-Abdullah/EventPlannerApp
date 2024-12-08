@@ -24,7 +24,7 @@ namespace EventPlannerApp
             Console.WriteLine($"Event: {ev.Name}");
             foreach (var timeZoneId in timeZoneIds)
             {
-                DateTime convertedTime = TimeZoneHelper.ConvertToTimeZone(ev.LocalDateTime, ev.TimeZoneId, timeZoneId);
+                DateTime convertedTime = ev.ConvertToTimeZone(timeZoneId);
                 Console.WriteLine($"Time in {timeZoneId}: {convertedTime}");
             }
         }
@@ -58,5 +58,29 @@ namespace EventPlannerApp
                 Console.WriteLine($"Event '{ev.Name}' has already started or passed.");
             }
         }
+    }
+
+    public Event? GetEventByName(string name)
+    {
+        foreach (var ev in events)
+        {
+            if (ev.Name == name)
+            {
+                return ev;
+            }
+        }
+        return null;
+    }
+
+    public Event? GetEventByName(string name)
+    {
+        foreach (var ev in events)
+        {
+            if (ev.Name == name)
+            {
+                return ev;
+            }
+        }
+        return null;
     }
 }
